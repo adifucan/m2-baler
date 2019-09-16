@@ -12,14 +12,15 @@ Add the following to your magento project's composer.json file:
 {
     "require": {
         ...
-        "magento/module-baler": "^0.1.0-alpha"
+        "magento/module-baler": "^0.1.0"
     },
     ...
     "repositories": {
         ...
         "adifucan": {
             "type": "vcs",
-            "url": "git@github.com:adifucan/m2-baler.git"
+            "url": "git@github.com:adifucan/m2-baler.git",
+            "no-api": true
         }
     }
 }
