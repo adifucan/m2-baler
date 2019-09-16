@@ -12,7 +12,7 @@ Add the following to your magento project's composer.json file:
 {
     "require": {
         ...
-        "magento/module-baler": "^0.1.0"
+        "magento/module-baler": "^0.1.0-alpha"
     },
     ...
     "repositories": {
