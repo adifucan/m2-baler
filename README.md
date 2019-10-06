@@ -10,3 +10,12 @@ Developer settings is not displayed in production mode. To enable this feature i
 1. The following features should be disabled when Magento_Baler is enabled:
    - JS Bundling
    - JS Minification
+
+### Installation of development version
+
+If you want to test this module, run the following commands to install:
+
+```bash
+$ composer config repositories.baler vcs https://github.com/adifucan/m2-baler
+$ composer require magento/module-baler:dev-master
+```
