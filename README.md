@@ -28,7 +28,7 @@ So, your `require` section looks like:
         "magento/module-baler": "dev-master"
     },
 ````
-2. Change `"minimum-stability": "stable"` to `"minimum-stability": "dev"` and add `"prefer-stable": true,`.
+2. Change `"minimum-stability": "stable"` to `"minimum-stability": "dev"` and add `"prefer-stable": true`
 This means that composer will always use stable package unless there is one. If there is no stable package it will use dev version.
 3. Add
 ````
