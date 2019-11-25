@@ -20,7 +20,7 @@ To enable this feature in production mode, the CLI command `bin/magento config:s
 3. Run `bin/magento setup:upgrade`
 
 ### Using Composer
-1. Add `"magento/module-baler": "dev-master"` to `require` section of `composer.json`
+1. Add `"magento/module-baler": "dev-master"` to `require` section of `composer.json`  
 So, your `require` section looks like:
 ````
     "require": {
@@ -28,7 +28,7 @@ So, your `require` section looks like:
         "magento/module-baler": "dev-master"
     },
 ````
-2. Change `"minimum-stability": "stable"` to `"minimum-stability": "dev"` and add `"prefer-stable": true`
+2. Change `"minimum-stability": "stable"` to `"minimum-stability": "dev"` and add `"prefer-stable": true`  
 This means that composer will always use stable package unless there is one. If there is no stable package it will use dev version.
 3. Add
 ````
